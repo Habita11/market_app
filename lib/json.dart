@@ -10,4 +10,5 @@ void request1()async{
   var result =json.decode(response.body);
   print(result.runtimeType);
   print(result[0]);
+  print(result.hashCode);
 }
